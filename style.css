@@ -14,8 +14,8 @@ body {
 
 .item {
 
-    width: 18%;
-    padding-bottom: 5%;
+    width: 23%;
+    padding-bottom: 2%;
 }
 
 .i_1 {
@@ -39,6 +39,7 @@ body {
     border-radius: 90px;
     margin-top: 25%;
     margin-left: 10%;
+    width: auto;
 
 }
 
@@ -75,10 +76,10 @@ h3 {
 p {
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
-    width: 60%;
+    /* width: 60%; */
     margin: 13% 20% 0 20%;
     /* text-align: center; */
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5;
 }
 
