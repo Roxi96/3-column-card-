@@ -9,17 +9,18 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 8%;
 }
 
 .item {
 
-    width: 20%;
+    width: 18%;
     padding-bottom: 5%;
 }
 
 .i_1 {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0px 0px 15px;
 }
 
 .i_2 {
@@ -28,6 +29,7 @@ body {
 
 .i_3 {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 15px 15px 0px;
 }
 
 .btn {
@@ -35,8 +37,9 @@ body {
     text-decoration: none;
     border: none;
     border-radius: 90px;
-    /* margin: 40px 30px 0px 30px; */
-    margin: 10% 10%;
+    margin-top: 25%;
+    margin-left: 10%;
+
 }
 
 .b_1 {
@@ -73,7 +76,7 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     width: 60%;
-    margin: 13% 13%;
+    margin: 13% 20% 0 20%;
     /* text-align: center; */
     font-size: 18px;
     line-height: 1.5;
@@ -92,8 +95,14 @@ p {
     }
 
     .item {
-
         width: 90%;
         padding-bottom: 5%;
+    }
+    .i_1 {
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    .i_3 { 
+        border-radius: 0px 0px 15px 15px;
     }
 }
